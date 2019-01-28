@@ -83,5 +83,4 @@ node_modules
     "lint:write": "eslint --debug app/ --fix",
   }
   ```
-
 * Crear los archivos de configuración de eslint en el root del proyecto, que pueden ser `.eslintrc.js` o `.eslintrc`. Se prefiere la extensión `.js` para tratarlo como un modulo de javascript. En este repositorio hay archivos base para las 3 plataformas previamente mencionadas, cada uno de estos en un directorio con el nombre correspondiente (por ej: react/eslintrc.js).
