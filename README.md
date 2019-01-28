@@ -12,7 +12,6 @@ Inicialmente se tendrán los settings para proyectos de:
 Se recomiendan los siguientes pasos, independiente de la plataforma en la que se vaya a programar (react, node, etc...)
 
 * Instalar [extension ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) para VSCode de Dirk Baeumer
-* Instalar las dependecias de desarrollo correspondiente a cada plataforma, las cuales son las siguientes.
 * En el root del proyecto, crear directorio  `.vscode/` y adentro archivo `settings.json` con el siguiente contenido. Esto sirve el proposito de hacer compatible el vscode con eslint y prettier.
 ```json
 {
