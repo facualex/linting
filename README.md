@@ -76,11 +76,11 @@ node_modules
   1. `npm run lint` va a listar en consola todos los problemas que hay en el proyecto, archivo por archivo.
   2. `npm run lint:write` va a intentar arreglar tantos problemas como sea posible sin compremeter el funcionamiento del proyecto y listará los problemas restants, que deben ser arreglados manualmente.
   
-  ```js
+```js
   "scripts":{
     //Sin sobrescribir los scripts previos, se ingresan despues
      "lint": "eslint --debug app/",
     "lint:write": "eslint --debug app/ --fix",
   }
-  ```
+```
 * Crear los archivos de configuración de eslint en el root del proyecto, que pueden ser `.eslintrc.js` o `.eslintrc`. Se prefiere la extensión `.js` para tratarlo como un modulo de javascript. En este repositorio hay archivos base para las 3 plataformas previamente mencionadas, cada uno de estos en un directorio con el nombre correspondiente (por ej: react/eslintrc.js).
