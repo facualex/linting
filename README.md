@@ -76,7 +76,7 @@ node_modules
   1. `npm run lint` va a listar en consola todos los problemas que hay en el proyecto, archivo por archivo.
   2. `npm run lint:write` va a intentar arreglar tantos problemas como sea posible sin compremeter el funcionamiento del proyecto y listará los problemas restants, que deben ser arreglados manualmente.
   
-  ```json
+  ```js
   "scripts":{
     //Sin sobrescribir los scripts previos, se ingresan despues
      "lint": "eslint --debug app/",
