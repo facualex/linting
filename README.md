@@ -2,7 +2,7 @@
 
 Este repositorio sirve para dar instrucciones y archivos de partida para implementarlo en los proyectos. Se usan las herramientas [ESLint](https://eslint.org/) y [Prettier](https://prettier.io/).
 
-Inicialmente se tendr√°n los settings para proyectos de:
+Inicialmente se tendr·n los settings para proyectos de:
 
 1. React
 2. React Native
@@ -17,6 +17,7 @@ Se recomiendan los siguientes pasos, independiente de la plataforma en la que se
 {
   "editor.formatOnSave": false,
   "javascript.format.enable": false,
+  "eslint.enable": true,
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "eslint.options": {
@@ -73,7 +74,7 @@ node_modules
 * Agregar los scripts del linter al `package.json` en la propiedad `"script"`. Estos sirven para ejecutar el linter y el formateador a todo el proyecto sin necesidad de ir archivo por archivo. 
 
   1. `npm run lint` va a listar en consola todos los problemas que hay en el proyecto, archivo por archivo.
-  2. `npm run lint:write` va a intentar arreglar tantos problemas como sea posible sin compremeter el funcionamiento del proyecto y listar√° los problemas restants, que deben ser arreglados manualmente.
+  2. `npm run lint:write` va a intentar arreglar tantos problemas como sea posible sin compremeter el funcionamiento del proyecto y listar· los problemas restants, que deben ser arreglados manualmente.
   
 ```js
   "scripts":{
@@ -82,4 +83,4 @@ node_modules
     "lint:write": "eslint --debug app/ --fix",
   }
 ```
-* Crear los archivos de configuraci√≥n de eslint en el root del proyecto, que pueden ser `.eslintrc.js` o `.eslintrc`. Se prefiere la extensi√≥n `.js` para tratarlo como un modulo de javascript. En este repositorio hay archivos base para las 3 plataformas previamente mencionadas, cada uno de estos en un directorio con el nombre correspondiente (por ej: react/eslintrc.js).
+* Crear los archivos de configuraciÛn de eslint en el root del proyecto, que pueden ser `.eslintrc.js` o `.eslintrc`. Se prefiere la extensiÛn `.js` para tratarlo como un modulo de javascript. En este repositorio hay archivos base para las 3 plataformas previamente mencionadas, cada uno de estos en un directorio con el nombre correspondiente (por ej: react/eslintrc.js).
