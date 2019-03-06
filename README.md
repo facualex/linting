@@ -69,7 +69,7 @@ node_modules
   
   1. React: `npm i -D babel-eslint eslint eslint-config-airbnb eslint-plugin-babel eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-config-kentcdodds` 
   2. React-native: `npm i -D babel-eslint eslint eslint-config-airbnb eslint-plugin-babel eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-native`
-  3. Node:  `npm i -D babel-eslint eslint eslint-config-airbnb-base eslint-plugin-babel eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-importeslint-config-kentcdodds` 
+  3. Node:  `npm i -D babel-eslint eslint eslint-config-airbnb-base eslint-plugin-babel eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import eslint-config-kentcdodds` 
 
 * Agregar los scripts del linter al `package.json` en la propiedad `"script"`. Estos sirven para ejecutar el linter y el formateador a todo el proyecto sin necesidad de ir archivo por archivo. 
 
