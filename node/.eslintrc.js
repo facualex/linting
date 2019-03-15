@@ -24,6 +24,7 @@ module.exports ={
     "semi": ["error", "never"],
     "space-before-function-paren": 0, 
     "max-len": ["error", 100, 2, { ignoreUrls: true, ignoreRegExpLiterals: true}], 
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
     "no-console": "error", 
     "no-alert": "error", 
     "no-param-reassign": "off", 
