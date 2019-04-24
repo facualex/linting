@@ -3,7 +3,7 @@ module.exports = {
     es6: true,
    browser: true
   },
-  extends: ['airbnb','kentcdodds','prettier', 'prettier/react'],
+  extends: ['airbnb','kentcdodds','plugin:react/recommended','prettier', 'prettier/react'],
   plugins: [
     'babel',
     'import',
