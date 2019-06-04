@@ -3,7 +3,7 @@ module.exports = {
     es6: true,
    browser: true
   },
-  extends: ['airbnb','kentcdodds','plugin:react/recommended','prettier', 'prettier/react'],
+  extends: ['kentcdodds','plugin:react/recommended','prettier', 'prettier/react'],
   plugins: [
     'babel',
     'import',
@@ -69,7 +69,5 @@ module.exports = {
     //Import rules
     'import/prefer-default-export': 0,
 
-    "jsx-a11y/href-no-hash": "off",
-    "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
   },
 };
