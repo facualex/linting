@@ -71,7 +71,7 @@ node_modules
   2. React-native: `npm i -D babel-eslint eslint eslint-config-airbnb eslint-plugin-babel eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-native`
   3. Node:  `npm i -D babel-eslint eslint eslint-config-airbnb-base eslint-plugin-babel eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import eslint-config-kentcdodds` 
 
-* Agregar los scripts del linter al `package.json` en la propiedad `"script"`. Estos sirven para ejecutar el linter y el formateador a todo el proyecto sin necesidad de ir archivo por archivo. Cambiar `app/` por el directorio donde esta el codigo a analizar, o poner `.` si se debe analizar desde el root del proyecto (tomando en cuenta que ignorara los directorios en `.eslintignore`
+* Agregar los scripts del linter al `package.json` en la propiedad `"script"`. Estos sirven para ejecutar el linter y el formateador a todo el proyecto sin necesidad de ir archivo por archivo. Cambiar `app/` por el directorio donde esta el codigo a analizar, o poner `.` si se debe analizar desde el root del proyecto (tomando en cuenta que ignorara los directorios en `.eslintignore. La flag --debug sirve para chequear que la instalación y seteo finalizó bien, se puede omitir.`
 
   1. `npm run lint` va a listar en consola todos los problemas que hay en el proyecto, archivo por archivo.
   2. `npm run lint:write` va a intentar arreglar tantos problemas como sea posible sin compremeter el funcionamiento del proyecto y listar� los problemas restants, que deben ser arreglados manualmente.
