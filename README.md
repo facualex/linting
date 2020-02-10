@@ -15,36 +15,26 @@ Se recomiendan los siguientes pasos, independiente de la plataforma en la que se
 * En el root del proyecto, crear directorio  `.vscode/` y adentro archivo `settings.json` con el siguiente contenido. Esto sirve el proposito de hacer compatible el vscode con eslint y prettier.
 ```json
 {
-  "editor.formatOnSave": false,
-  "javascript.format.enable": false,
-  "eslint.enable": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.options": {
-    "extensions": [
-      ".html",
-      ".js",
-      ".jsx"
-    ]
-  },
-  "eslint.validate": [
-    {
-      "language": "html",
-      "autoFix": true
+    "editor.formatOnSave": false,
+    "javascript.format.enable": false,
+    "eslint.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
     },
-    {
-      "language": "vue",
-      "autoFix": true
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+        "extensions": [
+            ".html",
+            ".js",
+            ".jsx"
+        ]
     },
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    }
-  ]
+    "eslint.validate": [
+        "html",
+        "vue",
+        "javascript",
+        "javascriptreact"
+    ],
 }
 ```
 * Crear el archivo `.prettierrc` en el root del proyecto con el siguiente contenido. Esto sirve el proposito de definir reglas generales de estilo.
